@@ -1,0 +1,55 @@
+Config调整：
+
+1：fastcraft
+    
+    enableFontRendererTweaks = true->false（平滑字体兼容）
+
+2：缤纷纪元 :
+
+    enchantment ids（90-102）->（230-242）
+    Dimension ID=60->-60
+    biome ids（47.48.49-51）->（144.145.240-242）
+    dimension biome ids（100-111、112）->（243-254、144）
+    "generate mod logs" {*=true}->"generate mod logs" {*=false}
+
+3：苹果奶茶
+
+    potionid（60-69）->（150-159）
+
+4：Randomthings
+
+    potionids {
+    I:ImbueExperience=117
+    I:ImbueFire=118
+    I:ImbuePoison=116
+    I:ImbueSpectre=126
+    I:ImbueWeakness=124
+    I:ImbueWither=119
+}
+->
+    potionids {
+    I:ImbueExperience=147
+    I:ImbueFire=148
+    I:ImbuePoison=146
+    I:ImbueSpectre=151
+    I:ImbueWeakness=150
+    I:ImbueWither=149
+}
+
+5：AE2
+
+    B:exportItemNames=true->false
+    D:UsageMultiplier=10.0->1.0
+
+6：GT
+
+     机器爆炸造成破坏true->false
+     更硬的刷怪笼true->false
+
+7：IC2
+
+    reactorExplosionPowerLimit = 100->4
+
+8：AE2FC
+
+    B:"Disable all recipes"=true->false
